@@ -8,6 +8,7 @@
           <li><NuxtLink to="/about">About</NuxtLink></li>
           <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           <li><NuxtLink to="/products" class="btn">Products</NuxtLink></li>
+          <li><NuxtLink to="/products/error" class="btnTwo">Error Page</NuxtLink></li>
         </ul> 
       </nav>
     </header>
@@ -23,5 +24,4 @@
   .router-link-exact-active {
     color: rgb(50, 47, 255);
   }
-
 </style>

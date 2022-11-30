@@ -2,11 +2,13 @@
   <div>
     <h2>About</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi praesentium vero iusto maxime laborum quam explicabo dignissimos perferendis repellat ad?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi praesentium vero iusto maxime laborum quam explicabo dignissimos perferendis repellat ad?</p>
+    <!-- <div>{{ data }}</div> -->
   </div>
 </template>
 
 <script setup>
+
+  // const { data } = await useFetch('/api/test')
 
 </script>
 
