@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h2 class="h2">Contacts</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi praesentium vero iusto maxime laborum quam explicabo dignissimos perferendis repellat ad?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi praesentium vero iusto maxime laborum quam explicabo dignissimos perferendis repellat ad?</p>
+    <h2 class="h2">Contact</h2>
   </div>
+  <img src="~/assets/space_eye.jpg" class="p-1 bg-white border rounded max-w-sm mx-auto" alt="">
+  <p class="text-3xl text-center">It would seem we haven't made any yet.</p>
+    
 </template>
 
 <script setup>
@@ -19,4 +20,7 @@
   p {
     margin: 20px;
   }
+  /* .backgound-image {
+
+  } */
 </style>

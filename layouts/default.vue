@@ -18,10 +18,24 @@
       <slot />
     </div>
   </div>
+
+
+
+  <footer class="shadow-sm bg-black text-white fixed bottom-0 left-0 w-screen">
+    <div class="flex justify-around space-x-32 py-10">
+        <ul class="flex gap-4">
+          <li><NuxtLink to="/">Home</NuxtLink></li>
+          <li><NuxtLink to="/about">About</NuxtLink></li>
+          <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+          <li><NuxtLink to="/products" class="btn">Products</NuxtLink></li>
+        </ul>
+        <div class="text-white">Copyright &copy; 2022, Jesse H</div>
+    </div>  
+  </footer>
 </template>
 
 <style scoped>
   .router-link-exact-active {
-    color: rgb(50, 47, 255);
+    color: rgb(125, 123, 247);
   }
 </style>

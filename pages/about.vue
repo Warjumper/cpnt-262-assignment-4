@@ -1,11 +1,11 @@
 <template>
   <div>
     <h2 class="h2">About</h2>
-    <p>This strange page holds but a single button. Its true purpose may never be known</p>
+    <p class="pOne">This strange page holds but a single button. Its true purpose may never be known.</p>
     <!-- <div>{{ data }}</div> -->
 
     <button class="my-7 text-2xl btn" @click="counter++">Add 1</button>
-    <p>The button above has been clicked {{ counter }} times. Not that it really matters.</p>
+    <p class="pTwo">The button above has been clicked <strong>{{ counter }}</strong> times. <em>Not that it really matters.</em></p>
   </div>
 </template>
 
@@ -29,7 +29,25 @@ data() {
     font-size: 36px;
   }
 
-  p {
-    margin: 20px;
+  .pOne {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .pTwo {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+
+  .btn {
+    display: block;
+    margin: auto;
+    font-size: 4rem;
+    padding: 40px;
   }
 </style>
