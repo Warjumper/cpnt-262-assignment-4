@@ -2,6 +2,11 @@
 ## Page Building in Nuxt
 ### By Jesse H
 
+## Code attributions;
+- Nuxt tutorial (very helpful): https://www.youtube.com/@NetNinja
+- Image from: http://wallpaperswide.com/
+
+
 
 ## Development Server
 
